@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumit Kumar</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Locomotive Scroll CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg" >
+
+</head>
+
+<body class="bg-black relative overflow-hidden">
+  <div
+    class="minicircle pointer-events-none w-[10px] h-[10px] bg-white rounded-full mix-blend-difference fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-50">
+  </div>
+
+
+  <main class="relative min-h-screen">
+    <div
+      class="arrowdiv z-50 text-white fixed  bottom-[1rem] right-[2rem] text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer">
+      <i class="ri-arrow-up-double-line"></i>
+      <div
+        class="arrowdivchild absolute  w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+        <a href="#home" data-scroll-to><i class="ri-arrow-up-line"></i></a>
+      </div>
+    </div>
+
+
+
+
+    <div id="home" class="view1 p-[2rem] w-full flex flex-col gap-[12rem] rs:gap-[4rem]">
+
+      <nav class="flex justify-between items-center  uppercase">
+        <h1 class="hero-heading font-[500]">sumit kumar</h1>
+        <ul class="nav-links flex gap-10 text-sm font-[500]">
+          <li><a href="#about" data-scroll-to class="link-hover">about</a></li>
+          <li><a href="#project" data-scroll-to class="link-hover">project</a></li>
+          <li><a href="#contact" data-scroll-to class="link-hover">contact</a></li>
+          <li class="magnetic"><i class="ri-menu-2-line"></i></li>
+          <li><i class="ri-add-line"></i></li>
+        </ul>
+
+      </nav>
+
+      <div class="flex flex-col hero gap-[1rem] w-full justify-center items-center">
+        <h3 class="text-zinc-300 text-sm">Hi! I'm Sumit Kumar 👋🏻</h3>
+
+        <div class="text-large heading uppercase font-[600] flex flex-col leading-[0.8] rs:text-mlarge ">
+          <h1>frontend</h1>
+          <h2 class="ml-[12rem] rs:ml-[0.5rem]">developer</h2>
+          <p class="text-zinc-300  font-[500] text-end  mt-[0.3rem] text-sm rs:text-xs">hailing from Delhi</p>
+        </div>
+
+        <div class="w-fit vid relative h-fit flex justify-center">
+          <video class="mt-[5rem]  object-fill  h-full w-[full] rs:mt-[1rem]" src="img/main-.mp4" autoplay data-scroll
+            data-scroll-speed="1" muted loop></video>
+
+
+          <h1
+            class="text-medium font-bold italic uppercase absolute left-0 bottom-0 -rotate-90 origin-bottom-left ml-[2rem] rs:hidden -translate-y-full">
+            code meets creativity
+          </h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="about w-full p-[6rem] rmd:p-[3rem] rmd:mt-[2rem] mt-[5rem]">
+      <div
+        class="text-large rs:text-mlarge rs:leading-none rs:tracking-[0] about-head uppercase font-semibold flex flex-col leading-[0.9] tracking-[-0.5rem] ">
+        <div class="">
+          <h1 class="rs:ml-[3rem]">Designing</h1>
+          <h2 class="text-center rs:ml-[3rem] text-mlarge text-stroke italic font-playwrite">exceptional</h2>
+          <h3 class="text-end rs:ml-[3rem]">websites</h3>
+        </div>
+        <div>
+          <h1 class="rs:ml-[3rem]">that leave a</h1>
+          <h2 class="text-end rs:ml-[3rem] text-mlarge text-stroke  italic">lasting
+            impression</h2>
+        </div>
+      </div>
+    </div> 
+
+
+
+    <div data-scroll data-scroll-speed="-1"
+      class=" w-full h-screen mt-[5rem] rmd:mt-[5rem]  flex  flex gap-[8rem] rmd:flex-col rs:p-[2rem] rmd:h-fit rmd:gap-[2rem] items-center">
+
+
+      <div class="w-[55%]  relative rmd:w-full rmd-p[2rem]">
+        <video autoplay loop muted class="w-full object-cover" src="img/responsive.mp4"></video>
+        <div
+          class="arrowdiv absolute top-[-6rem] right-20 text-xl bg-transparent border-2 hover:border-0 border-zinc-600 text-zinc-600 h-[100px] w-[100px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+          <a href=""><i class="ri-arrow-right-double-line"></i></a>
+          <div
+            class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+            <a class="text-small">Scroll<i class="ri-arrow-down-line"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center  rmd:p-[2rem] w-[30%] rmd:w-full">
+        <p class="text-small rmd:text-2xl font-semibold text-start">About</p>
+        <p class="text-small  rmd:text-xl font-[100] leading-[1.1] text-start mt-[1rem] text-zinc-300"> Engaged Front-End Developer passionate about building dynamic, user-friendly web interfaces. Highly proficient in React.js, Redux, GSAP, and Tailwind CSS. Dedicated to transforming design concepts into functional, responsive web applications, while continually enhancing performance and user interaction. Excited to take on new projects that push creative boundaries and elevate user experiences.</p>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div id="project" class="view2 relative  p-[6rem] w-full h-fit flex flex-col gap-[2rem] mt-[10rem] rs:mt-[2rem]">
+
+      <h1 data-scroll data-scroll-speed="-2"
+        class="py-[1rem] text-mlarge uppercase cursor-pointer   text-stroke hover:italic w-fit">projects</h1>
+
+
+
+      <div class=" row relative flex gap-[8rem] items-baseline rmd:flex-col rs:gap-[2rem]  ">
+        <div data-scroll data-scroll-speed="2" class=" absolute top-0 right-[-9rem]  rmd:hidden  w-fit">
+          <h1 class="uppercase font-[600] text-medium italic text-white -rotate-90 mt-[10rem]">
+            Visual experience project
+          </h1>
+        </div>
+
+        <div class="image relative w-[50%] rmd:w-full   h-screen overflow-hidden rounded-[30px]">
+          <video src="img/twoGoodGo.mp4" muted loop data-scroll data-scroll-speed="2"
+            class="w-full h-full object-cover rounded-[30px]"></video>
+
+          <div data-scroll data-scroll-speed="1"
+            class="arrowdiv absolute bottom-[2.9rem] right-20 text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+            <a href=""><i class="ri-arrow-right-double-line"></i></a>
+            <div
+              class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+              <a href="https://sumitkumar311.github.io/TwoGoodGo/" target="_blank"><i
+                  class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="image relative w-[30%] rmd:w-full h-[36rem] overflow-hidden rounded-[30px]">
+          <video src="img/obys.mp4" data-scroll data-scroll-speed="-3" muted loop
+            class="w-full h-full object-cover rounded-[30px] "></video>
+
+          <div data-scroll data-scroll-speed="-1"
+            class="arrowdiv absolute bottom-[2.9rem] right-20 text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+            <a><i class="ri-arrow-right-double-line"></i></a>
+            <div
+              class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+              <a href="https://sumitkumar311.github.io/Obys/" target="_blank"><i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-scroll data-scroll-speed="1" class="flex justify-center h-fit  items-center">
+        <div data-scroll data-scroll-speed="-5" class="rmd:hidden w-fit">
+          <h1 class="uppercase font-[600] text-medium italic text-white -rotate-90">
+            Adaptive layout
+          </h1>
+        </div>
+        <div class="image  relative w-[45%] rmd:w-full overflow-hidden rounded-[30px]">
+          <video src="img/main-.mp4" data-scroll data-scroll-speed="-2" muted loop
+            class="w-full h-[40rem] object-fill rounded-[30px]"></video>
+          <div data-scroll data-scroll-speed="1"
+            class="arrowdiv  mb-[5rem] absolute bottom-[2.9rem] right-20 text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+            <a href=""><i class="ri-arrow-right-double-line"></i></a>
+            <div
+              class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+              <a href=""><i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-scroll data-scroll-speed="1"
+        class=" relative row flex gap-[8rem] items-baseline rmd:flex-col rs:gap-[2rem]  ">
+
+
+        <div class="image relative w-[50%] rmd:w-full   h-screen overflow-hidden rounded-[30px]">
+          <video src="img/cover.mp4" muted loop data-scroll data-scroll-speed="2"
+            class="w-full h-full object-cover rounded-[30px]"></video>
+          <div data-scroll data-scroll-speed="-1"
+            class="arrowdiv absolute bottom-[2.9rem] right-20 text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+            <a href=""><i class="ri-arrow-right-double-line"></i></a>
+            <div
+              class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+              <a href="" target="_blank"><i
+                  class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div data-scroll data-scroll-speed="5"
+          class="image relative w-[30%] rmd:w-full h-[36rem] overflow-hidden rounded-[30px]">
+          <video src="img/obys.mp4" data-scroll data-scroll-speed="4" muted loop
+            class="w-full h-full object-cover rounded-[30px] "></video>
+
+          <div
+            class="arrowdiv absolute bottom-[2.9rem] right-20 text-xl bg-transparent border-2 border-gray-200 h-[70px] w-[70px] rounded-full flex justify-center items-center cursor-pointer translate-x-1/2 translate-y-1/2">
+            <a><i class="ri-arrow-right-double-line"></i></a>
+            <div
+              class="arrowdivchild absolute w-full h-full scale-0 opacity-0 flex justify-center items-center bg-white text-black rounded-full font-medium p-10 text-center">
+              <a href="https://sumitkumar311.github.io/Obys/" target="_blank"><i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div data-scroll data-scroll-speed="1" class=" absolute bottom-0 mb-[10rem] right-[-9rem]  rmd:hidden  w-fit">
+          <h1 class="uppercase font-[600] text-medium italic text-white -rotate-90">
+            Available for freelance
+          </h1>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div data-scroll data-scroll-speed="1"
+      class="major   h-fit   leading-[0.9] text-[4rem] p-[2rem] text-zinc-300 font-extrabold uppercase">
+      <h1 class="py-[1rem] text-medium text-stroke  w-fit">major project <span
+          class="text-xl font-medium text-white">upcoming</span></h1>
+
+      <div class="view2img text-mlarge relative flex items-center justify-between border-y-[1px] py-10 ">
+        <h1 class="">resume builder</h1>
+        <h4 class="text-[1rem]">2025</h4>
+        <div
+          class="imgdiv pointer-events-none absolute h-[15rem] w-[15rem] opacity-0 transform -translate-x-1/2 -translate-y-1/2">
+          <img src="img/grid-four.webp" class="h-full w-full object-cover rounded-xl shadow-lg" alt="Lucid Motor" />
+        </div>
+      </div>
+
+
+      <div class="view2img relative text-mlarge flex items-center justify-between border-y-[1px] py-10 ">
+        <h1>Ecommerce</h1>
+        <h4 class="text-[1rem]">2025</h4>
+        <div
+          class="imgdiv pointer-events-none absolute h-[15rem] w-[15rem] opacity-0 transform -translate-x-1/2 -translate-y-1/2">
+          <img src="img/grid-three.webp" class="h-full w-full object-cover rounded-xl shadow-lg" alt="iXperience" />
+        </div>
+      </div>
+
+
+      <div class="view2img relative text-mlarge flex items-center justify-between border-y-[1px] py-10 ">
+        <h1>Note App</h1>
+        <h4 class="text-[1rem]">2025</h4>
+        <div
+          class="imgdiv pointer-events-none absolute h-[15rem] w-[15rem] opacity-0 transform -translate-x-1/2 -translate-y-1/2">
+          <img src="img/grid-one.webp" class="h-full w-full object-cover rounded-xl shadow-lg" alt="Drug" />
+        </div>
+      </div>
+
+
+      <div class="view2img relative text-mlarge flex items-center justify-between border-y-[1px] py-10 ">
+        <h1>Comic Strip</h1>
+        <h4 class="text-[1rem]">2025</h4>
+        <div
+          class="imgdiv pointer-events-none absolute h-[15rem] w-[15rem] opacity-0 transform -translate-x-1/2 -translate-y-1/2">
+          <img src="img/grid-four.webp" class="h-full w-full object-cover rounded-xl shadow-lg" alt="Drug" />
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="footer mb-[4rem] flex flex-col justify-center">
+      <div class="w-full p-[2rem] rmd:p-[1rem] rmd:mt-[1rem] mt-[5rem]">
+        <div
+          class="text-large px-[6rem]  rs:p-[1rem] rs:text-mlarge rs:leading-none rs:tracking-[0] uppercase font-bold  leading-[0.9] tracking-[-0.3rem] ">
+
+          <h1 class="text-sta">Let's spark</h1>
+          <h2 class="text-center rs:ml-[3rem] text-mlarge text-stroke italic ">greatness</h2>
+          <h3 class="text-end">together</h3>
+          <div class="text-large   text-end flex justify-end  gap-8 ">
+            <a href="https://github.com/sumitkumar311" target="_blank">
+              <i class="magnetic text-medium leading-none align-top ri-github-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sumitshrivaas/" target="_blank"><i
+                class="magnetic text-medium  align-top ri-linkedin-fill"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div
+        class="bt-div mt-10 rs:mt-1  flex justify-between w-full font-bold uppercase font-[futura] text-[2vw] border-b-2 mb-10 border-zinc-700 p-[1rem]">
+        <input type="text" placeholder="Things are just getting started"
+          class="uppercase w-full bg-transparent border-none placeholder-white focus:outline-none focus:ring-0"
+          onfocus="this.placeholder=''" onblur="this.placeholder='The interaction isn’t over yet!'" />
+
+
+
+        <i class=" magnetic ri-arrow-right-s-line cursor-pointer"></i>
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </main>
+
+  <!-- Locomotive Scroll JS -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <!-- GSAP Core -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+    integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- GSAP ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+    integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Your Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
